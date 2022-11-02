@@ -1,0 +1,21 @@
+Set up a .NET Web Application to Be Deployed via Jenkins
+
+Github: https://github.com/sundershyam04/Phase-4-Jenkins-Practice-Project.git
+
+----------------------------Writeup-----------------------------------
+
+1) A sample .NET webapp is created using ASP.NET MVC
+
+2) Upload it to github and copy the repository link
+
+3) OPen jenkins in the browser with respective port
+
+4) create new item with freestyle project and set github repolink there and save the project 
+
+5) Click build now and check for its correct functionality whether build is succeeded or failed in build history and console output section
+
+6) configure the project with msbuild and solution file path from the machine and set peridoic build to 2 minutes and then save project
+
+7) Build Now and check the functionality in build history 
+
+8) thus project is successfully builded
